@@ -1,6 +1,6 @@
 # MetroWay
 
-This is a C++ project is a metro navigation system for Bengaluru's metro network,
+This is a C++ project is a metro navigation system for Bengaluru's metro network (Purple and Green Lines),
 designed to calculate the optimal path between two user-specified stations.
 
 ## About MetroWay
