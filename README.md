@@ -11,6 +11,13 @@ The project includes methods to add stations and edges, and to perform pathfindi
 Users are prompted to input the IDs of the source and destination stations, and the system outputs the optimal route, detailing station names and line information.
 This project demonstrates the application of OOP principles and graph traversal algorithms in solving real-world navigation problems.
 
+<p align="center">
+  <img alt="metroMap" width="650" src="https://github.com/rahulks01/MetroWay/blob/master/MetroMap.png">
+</p>
+<p align="center">
+  <em>Map of Bengaluru's Metro Purple and Green Line</em>
+</p>
+
 ## How to run on your machine
 - Clone the repository:
   Open the terminal or command prompt in your local computer and prompt the following command
