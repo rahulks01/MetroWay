@@ -150,16 +150,26 @@ int main() {
     int sourceId, destId;
     cout << "Enter source station ID: ";
     cin >> sourceId;
-    cout << "Enter destination station ID: ";
-    cin >> destId;
+    if (sourceId < 0 || sourceId > 62) {
+        cout << "Enter a valid station ID." << endl;
+    } else {
+        cout << "Enter destination station ID: ";
+        cin >> destId;
 
-    vector<int> shortestPath = metro.dijkstra(sourceId, destId);
+        if (destId < 0 || destId > 62) {
+            cout << "Enter a valid station ID." << endl;
+        } else if (destId == sourceId) {
+            cout << "The destination and the source IDs are same." << endl;
+        } else {
+            vector<int> shortestPath = metro.dijkstra(sourceId, destId);
 
-    cout << "Shortest path from " << metro.getStationNameById(sourceId) << " to "
-              << metro.getStationNameById(destId) << ":\n\n";
+            cout << "Shortest path from " << metro.getStationNameById(sourceId) << " to "
+                    << metro.getStationNameById(destId) << ":\n\n";
 
-    for (int stationId : shortestPath) {
-        cout << metro.getStationNameById(stationId) << " (" << metro.getStationLineById(stationId) << " Line)\n";
+            for (int stationId : shortestPath) {
+                cout << metro.getStationNameById(stationId) << " (" << metro.getStationLineById(stationId) << " Line)\n";
+            }
+        }
     }
 
     return 0;
