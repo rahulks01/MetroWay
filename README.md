@@ -12,7 +12,7 @@ Users are prompted to input the IDs of the source and destination stations, and 
 This project demonstrates the application of OOP principles and graph traversal algorithms in solving real-world navigation problems.
 
 <p align="center">
-  <img alt="metroMap" width="650" src="https://github.com/rahulks01/MetroWay/blob/master/MetroMap.png">
+  <img alt="metroMap" width="650" src="https://github.com/rahulks01/MetroWay/blob/master/img/MetroMap.png">
 </p>
 <p align="center">
   <em>Map of Bengaluru's Metro Purple and Green Line</em>
@@ -31,3 +31,10 @@ This project demonstrates the application of OOP principles and graph traversal 
   ```
   ./metro
   ```
+<p align="center">
+  <img src="https://github.com/rahulks01/MetroWay/blob/master/img/PurpleLineCodes.png" alt="PurpleLineCodes" height="600"/>
+  <img src="https://github.com/rahulks01/MetroWay/blob/master/img/GreenLineCodes.png" alt="GreenLineCodes" height="600"/>
+</p>
+<p align="center">
+  <em>Station codes to input for source and destination stations</em>
+</p>
