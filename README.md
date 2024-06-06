@@ -20,7 +20,7 @@ This project demonstrates the application of OOP principles and graph traversal 
 
 ## How to run on your machine
 - Clone the repository:
-  Open the terminal or command prompt in your local computer and prompt the following command
+  <br>Open the terminal or command prompt in your local computer and prompt the following command
   ```
   git clone https://github.com/rahulks01/MetroWay.git
   ```
